@@ -1,3 +1,9 @@
+provider "azurerm" {
+  version = ">=2.0.0"
+  features {}
+
+
+
 # Create public IP
 resource "azurerm_public_ip" "publicip" {
   name                = "myTFPublicIP"
