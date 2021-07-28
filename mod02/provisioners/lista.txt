@@ -1,0 +1,22 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Jul26 ?        00:00:00 /init
+root      1162 25029  1 01:44 pts/2    00:00:00 terraform apply -auto-approve
+root      1171  1162 27 01:44 pts/2    00:00:00 /usr/local/bin/terraform apply -auto-approve
+root      1216  1171  0 01:44 pts/2    00:00:00 .terraform/providers/registry.terraform.io/hashicorp/null/3.1.0/linux_amd64/terraform-provider-null_v3.1.0_x5
+root      1227  1171  0 01:44 pts/2    00:00:00 /bin/sh -c ps -ef > lista.txt
+root      1228  1227  0 01:44 pts/2    00:00:00 ps -ef
+root     23890     1  0 Jul27 ?        00:00:00 /init
+root     23891 23890  0 Jul27 ?        00:00:00 /init
+root     23892 23891  0 Jul27 pts/0    00:00:00 sh -c "$VSCODE_WSL_EXT_LOCATION/scripts/wslServer.sh" c3f126316369cd610563c75b1b1725e0679adfb3 stable .vscode-server 0  
+root     23893 23892  0 Jul27 pts/0    00:00:00 sh /mnt/c/Users/Rawhide/.vscode/extensions/ms-vscode-remote.remote-wsl-0.58.2/scripts/wslServer.sh c3f126316369cd610563c75b1b1725e0679adfb3 stable .vscode-server 0
+root     23899 23893  0 Jul27 pts/0    00:00:00 sh /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/server.sh  --port=0 --use-host-proxy --without-browser-env-var --disable-websocket-compression --print-ip-address --enable-remote-auto-shutdown
+root     23901 23899  0 Jul27 pts/0    00:00:33 /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/node /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/server/main.js  --port=0 --use-host-proxy --without-browser-env-var --disable-websocket-compression --print-ip-address --enable-remote-auto-shutdown
+root     23912 23901  0 Jul27 pts/0    00:00:16 /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/node /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/bootstrap-fork --type=ptyHost
+root     23923 23901  0 Jul27 pts/0    00:00:01 /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/node /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/bootstrap-fork --type=watcherService
+root     23965 23901  0 Jul27 pts/0    00:00:53 /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/node /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/server/uriTransformer.js --useHostProxy=
+root     23977 23912  0 Jul27 pts/1    00:00:14 /usr/bin/zsh
+root     24036 23965  0 Jul27 pts/0    00:00:05 /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/node /root/.vscode-server/extensions/googlecloudtools.cloudcode-1.13.1/dist/server/server.js --node-ipc --clientProcessId=23965
+root     24098 23965  0 Jul27 pts/0    00:00:36 /root/.vscode-server/extensions/hashicorp.terraform-2.14.0/lsp/terraform-ls serve
+root     24363 23901  0 Jul27 pts/0    00:00:30 /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/node /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/vs/server/uriTransformer.js --useHostProxy=
+root     24374 23901  0 Jul27 pts/0    00:00:00 /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/node /root/.vscode-server/bin/c3f126316369cd610563c75b1b1725e0679adfb3/out/bootstrap-fork --type=watcherService
+root     25029 23912  0 Jul27 pts/2    00:00:27 /usr/bin/zsh
